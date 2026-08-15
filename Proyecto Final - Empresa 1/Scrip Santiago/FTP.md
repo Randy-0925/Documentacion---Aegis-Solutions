@@ -29,7 +29,7 @@ sudo systemctl restart vsftpd
 sudo systemctl enable vsftpd
 sudo systemctl status vsftpd
 
-CONFIRMAR QUE ESTÁ EN EL PUERTO 21
+
 
 sudo ss -tlnp | grep :21
 
@@ -38,5 +38,5 @@ ftp 10.0.10.2
 username: neury
 password: Neury2026*
 
-Si el comando ftp no existe en tu Ubuntu, instálalo:
+
 sudo apt install -y ftp
